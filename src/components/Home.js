@@ -12,7 +12,7 @@ const Home = () => {
       <div className="splash-container">
         <img src={LOGO} alt="logo" className="splash-logo"/>
         <div className="splash-page"> MARIAH GILLING </div>
-        <h4 className="splash-subtitle">&bull; Junior Software Engineer &bull;</h4>
+        <h4 className="splash-subtitle">&bull; Junior Full Stack Engineer &bull;</h4>
         <button className="enter-btn"><Link to="/about">Enter</Link></button>
       </div>
 
