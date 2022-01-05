@@ -22,12 +22,16 @@
   // margin-bottom: -10px;
 }
 
+.tech-subtitle {
+  margin-top: -10px;
+}
+
 .project-container {
   display: flex;
   margin-bottom: 50px;
 }
 
-.nightdaze {
+.img {
   border: double;
 }
 
@@ -53,7 +57,7 @@
   margin-left: 20px;
 }
 
-.project-link {
+.project-btn {
   width: 180px;
   border-radius: 25px;
   border: 2px solid rgb(46, 46, 46);
@@ -64,7 +68,7 @@
   justify-content: center;
   align-items: center;
 }
-.readme-link {
+.readme-btn {
   width: 180px;
   border-radius: 25px;
   border: 2px solid rgb(46, 46, 46);
@@ -76,6 +80,20 @@
   align-items: center;
 }
 
+.project-link {
+  color: rgb(46, 46, 46);
+  display: flex;
+  align-items: center;
+}
+.readme-link {
+  color: rgb(46, 46, 46);
+  display: flex;
+  align-items: center;
+}
+
+.icon-portfolio {
+  margin-right: 5px;
+}
 .tech-subtitle {
   color: white;
   font-size: 16px;
