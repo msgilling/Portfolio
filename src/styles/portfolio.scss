@@ -33,12 +33,37 @@
   margin-bottom: 50px;
 }
 
-.image {
+.nightdazeapp {
   border: double;
-  filter: grayscale(0%);
+  // filter: grayscale(0%);
 }
-.image:hover {
-  filter: grayscale(100%);
+.platesterapp {
+  border: double;
+  // filter: grayscale(0%);
+}
+.filmojoapp {
+  border: double;
+  // filter: grayscale(0%);
+}
+.kikiapp {
+  border: double;
+  // filter: grayscale(0%);
+}
+.nightdazeapp:hover {
+  // filter: grayscale(100%);
+  content: url('../assets/nightdaze2.png');
+}
+.platesterapp:hover {
+  // filter: grayscale(100%);
+  content: url('../assets/recipeindex.png');
+}
+.filmojoapp:hover {
+  // filter: grayscale(100%);
+  content: url('../assets/movieshow_spiderman.png');
+}
+.kikiapp:hover {
+  // filter: grayscale(100%);
+  content: url('../assets/gameovergood.png');
 }
 
 
@@ -54,6 +79,7 @@
 .project-links a:hover {
   color: rgb(46, 46, 46);
   text-decoration: line-through;
+  
 }
 
 .project-links {

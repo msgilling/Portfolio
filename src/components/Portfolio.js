@@ -2,7 +2,7 @@ import React from 'react'
 import { Fade } from 'react-reveal'
 import NavBar from './NavBar'
 import NIGHTDAZE from '../assets/nightdaze_app.png'
-import PLATESTER from '../assets/recipeindex.png'
+import PLATESTER from '../assets/homepage.png'
 import FILMOJO from '../assets/filmojo_home_page.png'
 import KIKI from '../assets/kiki_start_screen.png'
 
@@ -21,7 +21,7 @@ const Portfolio = () => {
           <div className="project-container">
             <div className="image-container">
               <Fade left>
-                <img src={NIGHTDAZE} alt="nightdaze" className="image" width="700" />
+                <img src={NIGHTDAZE} alt="nightdaze" className="nightdazeapp" width="700" />
               </Fade>
             </div>
             <Fade right>
@@ -40,7 +40,7 @@ const Portfolio = () => {
           <div className="project-container">
             <div className="image-container">
               <Fade left>
-                <img src={PLATESTER} alt="platester" className="image" width="700" />
+                <img src={PLATESTER} alt="platester" className="platesterapp" width="700" />
               </Fade>
             </div>
             <Fade right>
@@ -58,7 +58,7 @@ const Portfolio = () => {
           <div className="project-container">
             <div className="image-container">
               <Fade left>
-                <img src={FILMOJO} alt="filmojo" className="image" width="700" />
+                <img src={FILMOJO} alt="filmojo" className="filmojoapp" width="700" />
               </Fade>
             </div>
             <Fade right>
@@ -76,7 +76,7 @@ const Portfolio = () => {
           <div className="project-container">
             <div className="image-container">
               <Fade left>
-                <img src={KIKI} alt="kiki's delivery service" className="image" width="700" />
+                <img src={KIKI} alt="kiki's delivery service" className="kikiapp" width="700" />
               </Fade>
             </div>
             <Fade right>
