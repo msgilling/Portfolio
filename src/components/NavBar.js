@@ -28,6 +28,7 @@ const NavBar = () => {
           <Nav className="nav-links">
             <Nav.Link href="/about">About</Nav.Link>&bull;
             <Nav.Link href="/projects">Projects</Nav.Link>&bull;
+            <Nav.Link href="/experience">Experience</Nav.Link>&bull;
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
         </Container>

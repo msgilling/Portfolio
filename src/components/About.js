@@ -28,7 +28,7 @@ const About = () => {
                 <p>Hi, my name is <strong>Mariah!</strong></p>
                 <p>My previous role as a Visual Merchandiser allowed me to be creative and problem solve, two aspects of the job I really became really passionate about. </p>
                 <p>This drove me to go and study coding and software engineering at General Assembly, enjoying the ability to learn as much as I can with like minded people.</p>
-                <p>I am now open for opportunities as a a Front-End or Full-Stack Developer in a collaborative team where I can continue to grow my skills daily and collaborate with like minded individuals.</p>
+                <p>I am now open for opportunities as a Front-End or Full-Stack Developer in a collaborative team where I can continue to grow my skills daily and collaborate with like minded individuals.</p>
                 <p>In my spare time (when I'm not coding), you can find me illustrating on my iPad. You can check out my work at <a href="https://www.instagram.com/mxrling/">@mxrling</a>.</p>
               </div>
             </Fade>
@@ -39,7 +39,7 @@ const About = () => {
             <Fade bottom>
             <div className="single-icon-wrapper">
               <FaHtml5 size={65} color="white" className="icon" />
-              <p>HTML5</p>
+              <p className="icon-desc">HTML5</p>
             </div>
             <div className="single-icon-wrapper">
               <FaCss3Alt size={65} color="white" className="icon" />
@@ -55,7 +55,7 @@ const About = () => {
             </div>
             <div className="single-icon-wrapper">
               <FaReact size={65} color="white" className="icon" />
-              <p>React (Hooks)</p>
+              <p>React </p>
             </div>
           
             <div className="single-icon-wrapper">
@@ -92,7 +92,7 @@ const About = () => {
               <p>Git</p>
             </div>
             <div className="single-icon-wrapper">
-              <DiHeroku size={55} color="white" className="icon" />
+              <DiHeroku size={65} color="white" className="icon" />
               <p>Heroku</p>
             </div>
             <div className="single-icon-wrapper">
