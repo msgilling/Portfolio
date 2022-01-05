@@ -27,7 +27,7 @@ const NavBar = () => {
           </Navbar.Brand>
           <Nav className="nav-links">
             <Nav.Link href="/about">About</Nav.Link>&bull;
-            <Nav.Link href="/portfolio">Portfolio</Nav.Link>&bull;
+            <Nav.Link href="/projects">Projects</Nav.Link>&bull;
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
         </Container>
