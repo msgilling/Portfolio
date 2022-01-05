@@ -15,18 +15,19 @@ const NavBar = () => {
         expand="sm"
         variant="dark"
       >
-        <Container>
+        <Container className="nav">
           <Navbar.Brand href="/" className="nav-name">
-          <img
-        src={LOGO}
-        width="50"
-        height="50"
-        className="navlogo"
-        alt="Mariah Gilling logo"
-      /></Navbar.Brand>
+            <img
+              src={LOGO}
+              width="50"
+              height="50"
+              className="navlogo"
+              alt="Mariah Gilling logo"
+            />
+          </Navbar.Brand>
           <Nav className="nav-links">
-            <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>&bull;
+            <Nav.Link href="/portfolio">Portfolio</Nav.Link>&bull;
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
         </Container>
