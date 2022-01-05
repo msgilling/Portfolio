@@ -3,6 +3,7 @@ import NavBar from './NavBar'
 import { FiMail } from 'react-icons/fi'
 import { FaLinkedin,FaGithub } from 'react-icons/fa'
 import PIC from '../assets/profilepic.jpg'
+import Fade from 'react-reveal'
 
 const Contact = () => {
 
@@ -10,19 +11,32 @@ const Contact = () => {
     <>
     <NavBar/>
     <div className="contact-section">
+      <Fade top>
       <h1 className="contact-title">&bull; Contact &bull;</h1>
+      </Fade>
       <div className="contact-container">
-      <img src={PIC} alt="logo" className="profilepic"/>
-        <div className="email">
+      <Fade left>
+        <img src={PIC} alt="logo" className="profilepic"/>
+      </Fade>
+      
+      <Fade right>
+        <div className="contact-options">
           <FiMail size={35} color="white" className="icon-contact" />
+          <a href="mailto:mxrlling@gmail.com" className="contact-links">Email</a>
         </div>
-        <div className="linkedin">
+      </Fade>
+      <Fade left>
+        <div className="contact-options">
           <FaLinkedin size={35} color="white" className="icon-contact" />
+          <a href="https://www.linkedin.com/in/mariah-gilling/" className="contact-links">LinkedIn</a>
         </div>
-        <div className="github">
+      </Fade>
+      <Fade right>
+        <div className="contact-options">
           <FaGithub size={35} color="white" className="icon-contact" />
+          <a href="https://github.com/msgilling" className="contact-links">GitHub</a>
         </div>
-        
+      </Fade>
       
       </div>
 

@@ -41,3 +41,21 @@ img.profilepic {
   opacity: 0.8;
   margin-bottom: 20px;
 }
+
+.contact-options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.icon-contact {
+  margin-right: 10px;
+}
+
+a.contact-option {
+  font-size: 18px;
+}
+
+.contact-links {
+  font-size: 20px;
+}
