@@ -3,7 +3,7 @@ import { Fade } from 'react-reveal'
 import NavBar from './NavBar'
 import NIGHTDAZE from '../assets/nightdaze_app.png'
 import PLATESTER from '../assets/homepage.png'
-import FILMOJO from '../assets/filmojo_home_page.png'
+import FILMOJO from '../assets/filmojohome.png'
 import KIKI from '../assets/kiki_start_screen.png'
 
 import { FaGithub, FaLink } from 'react-icons/fa'
