@@ -28,13 +28,13 @@ const Contact = () => {
           <Fade left>
             <div className="contact-options">
               <FaLinkedin size={35} color="white" className="icon-contact" />
-              <a href="https://www.linkedin.com/in/mariah-gilling/" className="contact-links">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/mariah-gilling/" target="__blank" className="contact-links">LinkedIn</a>
             </div>
           </Fade>
           <Fade right>
             <div className="contact-options">
               <FaGithub size={35} color="white" className="icon-contact" />
-              <a href="https://github.com/msgilling" className="contact-links">GitHub</a>
+              <a href="https://github.com/msgilling" target="__blank" className="contact-links">GitHub</a>
             </div>
           </Fade>
 
