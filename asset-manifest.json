@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0eb5443b.css",
+    "main.js": "/static/js/main.1aac05ee.js",
+    "static/js/787.9b9c0edf.chunk.js": "/static/js/787.9b9c0edf.chunk.js",
+    "static/media/homepage.png": "/static/media/homepage.21d7ca5a01c6e88af3f1.png",
+    "static/media/recipeindex.png": "/static/media/recipeindex.5de6a17da39c21437c78.png",
+    "static/media/movieshow_spiderman.png": "/static/media/movieshow_spiderman.fbcae0fcbce8dee3e3ae.png",
+    "static/media/filmojohome.png": "/static/media/filmojohome.3d6a30a64104a181f275.png",
+    "static/media/profilepic.jpg": "/static/media/profilepic.d433f61c8befc4d4c622.jpg",
+    "static/media/kiki_start_screen.png": "/static/media/kiki_start_screen.aa506c69cc61e365fb6c.png",
+    "static/media/gameovergood.png": "/static/media/gameovergood.b650356047b5e1cc3232.png",
+    "static/media/nightdaze2.png": "/static/media/nightdaze2.0b56f53a822622e3b1d2.png",
+    "static/media/nightdaze_app.png": "/static/media/nightdaze_app.4e49d7b861ab55d831a8.png",
+    "static/media/greylogo.png": "/static/media/greylogo.4114198c4341941dfa2d.png",
+    "static/media/marling.png": "/static/media/marling.0b12c7cee4a5d39448a5.png",
+    "static/media/ga.png": "/static/media/ga.8c1f2d8398e23bf95333.png",
+    "index.html": "/index.html",
+    "main.0eb5443b.css.map": "/static/css/main.0eb5443b.css.map",
+    "main.1aac05ee.js.map": "/static/js/main.1aac05ee.js.map",
+    "787.9b9c0edf.chunk.js.map": "/static/js/787.9b9c0edf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0eb5443b.css",
+    "static/js/main.1aac05ee.js"
+  ]
+}
